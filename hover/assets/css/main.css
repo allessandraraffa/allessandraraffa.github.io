@@ -1,8 +1,160 @@
-.box {
-  height: 100px;
-  width: 200px;
+
+
+.blackheader {
+  text-decoration: underline;
+}
+
+.redheader {
+  color:red;
+}
+
+.redheader:hover {
+  color: orange;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 1s;
+}
+
+.link {
+  color: orange;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: orange;
+  font-size: 15px;
+  transition: 1s;
+  text-decoration: none;
+}
+
+.blueheader.showme {
+  display:block;
+}
+
+
+.number {
+  color:blue;
+  text-decoration: underline;
+}
+
+.number:hover {
+  background-color: blue;
+  color: white;
+}
+
+.footnote {
+  position: fixed;
+  transform: rotate(270deg);
+  color: blue;
+  margin-left: 24%;
+display: none;
+
+}
+
+.footnote.showme {
+  display: block;
+}
+
+.thumbnail {
+  width: 100px;
+  display:block;
+}
+
+.thumbnailenlarge{
+  width: 150px;
+}
+
+
+
+
+
+.block {
+  color:red;
+  text-decoration: none;
+}
+
+.block:hover {
   background-color: red;
-  border: 10px solid blue;
-  color:yellow;
-  
+  text-align: center;
+  width:60px;
+  color: white;
+}
+
+.blockonclick {
+
+  border: solid 1px red;
+  color: red;
+margin-top:30px;
+  width: 300px;
+  margin-left: 600px;
+  padding: 10px;
+  display: none;
+  position: fixed;
+}
+
+
+.blockonclick.showme {
+  display: block;
+}
+
+
+
+
+
+.block2 {
+  color:blue;
+  text-decoration: none;
+}
+
+.block2:hover {
+  background-color: blue;
+  text-align: center;
+  width:60px;
+  color: white;
+}
+
+.block2onclick {
+  border: solid 1px blue;
+  color: blue;
+margin-top:30px;
+  width: 300px;
+  margin-left: 600px;
+  padding: 10px;
+  display: none;
+  position: fixed;
+}
+
+
+.block2onclick.showme {
+  display: block;
+}
+
+
+
+.block3 {
+  color:magenta;
+  text-decoration: none;
+}
+
+.block3:hover {
+  background-color: magenta;
+  text-align: center;
+  width:60px;
+  color: white;
+}
+
+.block3onclick {
+  border: solid 1px magenta;
+  color: magenta;
+margin-top:30px;
+  width: 300px;
+  margin-left: 600px;
+  padding: 10px;
+  display: none;
+  position: fixed;
+}
+
+
+.block3onclick.showme {
+  display: block;
 }
