@@ -11,7 +11,7 @@
 .redheader:hover {
   color: orange;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 35px;
   transition: 1s;
 }
 
@@ -84,9 +84,9 @@ display: none;
 
   border: solid 1px red;
   color: red;
-margin-top:30px;
+margin-top:10px;
   width: 300px;
-  margin-left: 600px;
+  margin-left: 800px;
   padding: 10px;
   display: none;
   position: fixed;
@@ -118,7 +118,7 @@ margin-top:30px;
   color: blue;
 margin-top:30px;
   width: 300px;
-  margin-left: 600px;
+  margin-left: 400px;
   padding: 10px;
   display: none;
   position: fixed;
