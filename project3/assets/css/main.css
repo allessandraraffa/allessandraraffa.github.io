@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+.gradient {
+  background:
+    linear-gradient(
+      #FFCC00,hotpink
+    );
+}
+
+
+.index {
+  color: white;
+  text-align: center;
+  font-family: verdana;
+  font-size: 48px;
+  position: fixed;
+}
+
+
+.menuleft {
+  height:100vh;
+  width: 5%;
+  background-color: blue;
+  position: fixed;
+  top:0px;
+  left:0px;
+}
+
+.menuright {
+  height:100vh;
+  width: 5%;
+  background-color: blue;
+  position: fixed;
+  top:0px;
+  right:0px;
+}
+
+.main {
+  width: 90%;
+  position: relative;
+  left:5%;
+  right: 5%;
+
+}
+
+.row {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.col_1of2 {
+  flex:0 0 50%;
+}
+
+.col_2of2 {
+  flex:0 0 50%;
+}
+
+
+.content {
+  padding: 10px;
+  margin: 10px;
+  font-family: courier;
+  font-size: 12px;
+}
+
+.h1{
+  text-transform:uppercase;
+  font-size:48px;
+  font-family:'helvetica';
+}
+
+.h2{
+  font-size:14px;
+  font-family:'courier';
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: courier;
+
+}
+
+.difference {
+  position: fixed;
+  top:0;
+  left:0;
+  mix-blend-mode:difference;
+}
+
+.linkios7{
+  color:blue;
+}
+
+.linkios7:hover {
+  font-weight: bold;
+  color:hotpink;
+}
+
+.ios7 {
+  align-content: center;
+  display: none;
+}
+
+.ios7.showme {
+  display: block;
+  text-align: center;
+}
+
+
+
+
+.linkdrunk{
+  color:blue;
+}
+
+.linkdrunk:hover {
+  font-weight: bold;
+  color:hotpink;
+}
+
+.drunk{
+  text-align: center;
+  display: none;
+}
+
+.drunk.showme {
+  display: block;
+}
+
+
+
+.newyorklink{
+  color:blue;
+}
+
+.newyorklink:hover {
+  font-weight: bold;
+  color:hotpink;
+}
+
+.newyork{
+  text-align: center;
+  display: none;
+}
+
+.newyork.showme {
+  display: block;
+}
+
+
+
+.outerspacelink {
+  color:blue;
+}
+
+.outerspacelink:hover{
+  font-weight: bold;
+  color:hotpink;
+}
+
+.outerspace {
+  align-content: center;
+  display: none;
+}
+
+.outerspace.showme {
+  display:block;
+}
