@@ -15,19 +15,20 @@
 }
 
 .index {
-  color: magenta;
+  position: fixed;
+  color: blue;
   text-align: center;
   font-family: verdana;
-  font-size: 56px;
+  font-size: 72px;
   font-weight: bold;
-  position: fixed;
-  left: 45%;
   text-decoration: none;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 
 .index:hover {
-  color: white;
+  color: magenta;
 }
 
 
