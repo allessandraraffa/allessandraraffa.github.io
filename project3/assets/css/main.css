@@ -9,14 +9,83 @@
     );
 }
 
+.center {
+  align-items:center;
+  justify-content:center;
+}
 
 .index {
-  color: white;
+  color: magenta;
   text-align: center;
   font-family: verdana;
-  font-size: 48px;
+  font-size: 56px;
+  font-weight: bold;
   position: fixed;
+  left: 45%;
+  text-decoration: none;
 }
+
+
+.index:hover {
+  color: white;
+}
+
+
+.nav {
+  font-size: 12px;
+  cursor: pointer;
+  display: block;
+  background-color: lightpink;
+  height: 5%;
+  width:100%;
+  position: fixed;
+ top: 0px;
+ left:5%;
+ right:5%;
+}
+
+.arrow {
+  margin-left: 45%;
+  margin-top: 1%;
+}
+
+
+
+
+.items {
+  height: 20vh;
+  width: 100%;
+  background-color: lightpink;
+  position: fixed;
+  top: -30vw;
+  left: 5%;
+  right:5%;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.itemslink {
+  color:blue;
+  text-align: center;
+  text-decoration: none;
+  font-family: courier;
+  font-size: 12px;
+  margin-left: 45%;
+
+}
+
+.itemslink:hover{
+ color: #FFCC00;
+ font-weight: bold;
+}
+
+
+.items.showme {
+  top: 0;
+  transition: all 1s;
+}
+
+
 
 
 .menuleft {
@@ -35,6 +104,11 @@
   position: fixed;
   top:0px;
   right:0px;
+}
+
+.menutext {
+  text-align: center;
+  margin-top: 50vh;
 }
 
 .main {
@@ -90,6 +164,21 @@
   left:0;
   mix-blend-mode:difference;
 }
+
+
+.websitelink {
+  color:blue;
+}
+
+.websitelink:hover{
+  font-weight: bold;
+  color: blue;
+  font-size: 14px;
+  transition: 1s;
+}
+
+
+
 
 .linkios7{
   color:blue;
@@ -168,5 +257,64 @@
 }
 
 .outerspace.showme {
+  display:block;
+}
+
+
+
+.webringlink {
+  color:blue;
+}
+
+.webringlink:hover{
+  font-weight: bold;
+  color:hotpink;
+}
+
+.webring {
+  align-content: center;
+  display: none;
+}
+
+.webring.showme {
+  display:block;
+}
+
+
+.busstoplink {
+  color:blue;
+}
+
+.busstoplink:hover{
+  font-weight: bold;
+  color:hotpink;
+}
+
+.busstop {
+  align-content: center;
+  display: none;
+}
+
+.busstop.showme {
+  display:block;
+}
+
+
+
+.layoutlink {
+  color:blue;
+}
+
+.layoutlink:hover{
+  font-weight: bold;
+  color:hotpink;
+}
+
+.layout {
+  align-content: center;
+  display: none;
+}
+
+.layout.showme {
   display:block;
 }
