@@ -173,3 +173,92 @@ $(document).ready(function() {
   });
 
 });
+
+
+
+
+$(document).ready(function() {
+
+  $('.personalitylink').mouseenter(function() {
+    $('.personality').addClass('showme');
+  });
+
+});
+
+$(document).ready(function() {
+
+  $('.personalitylink').mouseleave(function() {
+    $('.personality').removeClass('showme');
+  });
+
+});
+
+
+$(document).ready(function() {
+
+  $('.smileylink').mouseenter(function() {
+    $('.smiley').addClass('showme');
+  });
+
+});
+
+$(document).ready(function() {
+
+  $('.smileylink').mouseleave(function() {
+    $('.smiley').removeClass('showme');
+  });
+
+});
+
+
+
+$(document).ready(function() {
+
+  $('.facebooklink').mouseenter(function() {
+    $('.facebook').addClass('showme');
+  });
+
+});
+
+$(document).ready(function() {
+
+  $('.facebooklink').mouseleave(function() {
+    $('.facebook').removeClass('showme');
+  });
+
+});
+
+
+$(document).ready(function() {
+
+  $('.roarlink').mouseenter(function() {
+    $('.roar').addClass('showme');
+  });
+
+});
+
+$(document).ready(function() {
+
+  $('.roarlink').mouseleave(function() {
+    $('.roar').removeClass('showme');
+  });
+
+});
+
+
+
+$(document).ready(function() {
+
+  $('.listlink').mouseenter(function() {
+    $('.list').addClass('showme');
+  });
+
+});
+
+$(document).ready(function() {
+
+  $('.listlink').mouseleave(function() {
+    $('.list').removeClass('showme');
+  });
+
+});

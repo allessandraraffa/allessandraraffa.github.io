@@ -446,3 +446,110 @@
 .layout.showme {
   display:block;
 }
+
+
+
+.personalitylink {
+  color:lightpink;
+}
+
+.personalitylink:hover{
+  font-weight: bold;
+  color:lightblue;
+}
+
+.personality {
+  display: none;
+  background-color: lightblue;
+padding: inherit;
+  text-align: center;
+}
+
+.personality.showme {
+  display:block;
+}
+
+
+
+.smileylink {
+  color:lightpink;
+}
+
+.smileylink:hover{
+  font-weight: bold;
+  color:lightblue;
+}
+
+.smiley {
+  display: none;
+  background-color: lightblue;
+padding: inherit;
+  text-align: center;
+}
+
+.smiley.showme {
+  display:block;
+}
+
+
+.facebooklink {
+  color:lightpink;
+}
+
+.facebooklink:hover{
+  font-weight: bold;
+  color:lightblue;
+}
+
+.facebook {
+  display: none;
+  background-color: lightblue;
+padding: inherit;
+  text-align: center;
+}
+
+.facebook.showme {
+  display:block;
+}
+
+
+.roarlink {
+  color:lightpink;
+}
+
+.roarlink:hover{
+  font-weight: bold;
+  color:lightblue;
+}
+
+.roar {
+  display: none;
+  background-color: lightblue;
+padding: inherit;
+  text-align: center;
+}
+
+.roar.showme {
+  display:block;
+}
+
+
+.listlink {
+  color:lightpink;
+}
+
+.listlink:hover{
+  font-weight: bold;
+  color:lightblue;
+}
+
+.list {
+  display: none;
+  background-color: lightblue;
+padding: inherit;
+  text-align: center;
+}
+
+.list.showme {
+  display:block;
+}
