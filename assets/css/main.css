@@ -10,6 +10,10 @@
   background-image: url("http://3.bp.blogspot.com/-OvmhX21y3lQ/T9nqWeOttQI/AAAAAAAAF6w/_nDUlZ-Pfcc/s1600/Green-wallpaper-14.jpg");
 }
 
+.background_emoji {
+  background-image: url("http://cdn.wallpapersafari.com/5/45/pG86wt.jpg");
+}
+
 .center {
   align-items:center;
   justify-content:center;
@@ -50,6 +54,34 @@
  right:5%;
 }
 
+
+.nav_emoji {
+  font-size: 12px;
+  cursor: pointer;
+  display: block;
+  background-color: lightblue;
+  height: 5%;
+  width:100%;
+  position: fixed;
+ top: 0px;
+ left:3%;
+ right:5%;
+}
+
+.nav_beautiful {
+  font-size: 12px;
+  cursor: pointer;
+  display: block;
+  background-color: #F781D8;
+  height: 5%;
+  width:100%;
+  position: fixed;
+ top: 0px;
+ left:3%;
+ right:5%;
+}
+
+
 .arrow {
   margin-left: 45%;
   margin-top: 1%;
@@ -63,10 +95,44 @@
   color: limegreen;
 }
 
+
+.paragraph_emoji {
+  background-color: white;
+  border: solid lightblue 2px;
+  padding: 5px;
+  color: black;
+}
+
+
 .items {
   height: 20vh;
   width: 100%;
   background-color: black;
+  position: fixed;
+  top: -30vw;
+  left: 3%;
+  right:5%;
+  z-index: 1;
+  transition: all 1s;
+}
+
+
+.items_emoji {
+  height: 20vh;
+  width: 100%;
+  background-color: lightblue;
+  position: fixed;
+  top: -30vw;
+  left: 3%;
+  right:5%;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.items_beautiful {
+  height: 20vh;
+  width: 100%;
+  background-color: #F781D8;
   position: fixed;
   top: -30vw;
   left: 3%;
@@ -96,8 +162,15 @@
   transition: all 1s;
 }
 
+.items_emoji.showme {
+  top: 0;
+  transition: all 1s;
+}
 
-
+.items_beautiful.showme {
+  top: 0;
+  transition: all 1s;
+}
 
 .menuleft {
   height:100vh;
@@ -116,6 +189,47 @@
   top:0px;
   right:0px;
 }
+
+
+.menuleft_beautiful {
+  height:100vh;
+  width: 3%;
+  background-color: #F781D8;
+  position: fixed;
+  top:0px;
+  left:0px;
+}
+
+.menuright_beautiful {
+  height:100vh;
+  width: 3%;
+  background-color: #F781D8;
+  position: fixed;
+  top:0px;
+  right:0px;
+}
+
+
+
+
+.menuleft_emoji {
+  height:100vh;
+  width: 3%;
+  background-color: lightblue;
+  position: fixed;
+  top:0px;
+  left:0px;
+}
+
+.menuright_emoji {
+  height:100vh;
+  width: 3%;
+  background-color: lightblue;
+  position: fixed;
+  top:0px;
+  right:0px;
+}
+
 
 .menutext {
   text-align: center;

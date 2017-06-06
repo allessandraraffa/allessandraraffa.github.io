@@ -15,6 +15,35 @@ $('.nav').click(function() {
 });
 
 
+$(document).ready(function() {
+
+  // Add jQuery here
+
+  // On .nav click, toggleClass ON or OFF showme.
+
+$('.nav_emoji').click(function() {
+  $('.items_emoji').toggleClass('showme');
+});
+
+
+});
+
+
+
+$(document).ready(function() {
+
+  // Add jQuery here
+
+  // On .nav click, toggleClass ON or OFF showme.
+
+$('.nav_beautiful').click(function() {
+  $('.items_beautiful').toggleClass('showme');
+});
+
+
+});
+
+
 
 
 
