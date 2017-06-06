@@ -2,16 +2,21 @@
   box-sizing: border-box;
 }
 
-.gradient {
-  background:
-    linear-gradient(
-      #FFCC00,hotpink
-    );
+.background_beautiful {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/26/92/d7/2692d7509999ec87416f25bebea3d26e.jpg");
+}
+
+.background_verweb {
+  background-image: url("http://3.bp.blogspot.com/-OvmhX21y3lQ/T9nqWeOttQI/AAAAAAAAF6w/_nDUlZ-Pfcc/s1600/Green-wallpaper-14.jpg");
 }
 
 .center {
   align-items:center;
   justify-content:center;
+}
+
+.pageheader_verweb {
+  tex
 }
 
 .index {
@@ -36,12 +41,12 @@
   font-size: 12px;
   cursor: pointer;
   display: block;
-  background-color: lightpink;
+  background-color: black;
   height: 5%;
   width:100%;
   position: fixed;
  top: 0px;
- left:5%;
+ left:3%;
  right:5%;
 }
 
@@ -51,15 +56,20 @@
 }
 
 
-
+.paragraph_verweb {
+  background-color: black;
+  border: solid limegreen 2px;
+  padding: 5px;
+  color: limegreen;
+}
 
 .items {
   height: 20vh;
   width: 100%;
-  background-color: lightpink;
+  background-color: black;
   position: fixed;
   top: -30vw;
-  left: 5%;
+  left: 3%;
   right:5%;
   z-index: 1;
   transition: all 1s;
@@ -76,7 +86,7 @@
 }
 
 .itemslink:hover{
- color: #FFCC00;
+ color: white;
  font-weight: bold;
 }
 
@@ -91,8 +101,8 @@
 
 .menuleft {
   height:100vh;
-  width: 5%;
-  background-color: blue;
+  width: 3%;
+  background-color: black;
   position: fixed;
   top:0px;
   left:0px;
@@ -100,8 +110,8 @@
 
 .menuright {
   height:100vh;
-  width: 5%;
-  background-color: blue;
+  width: 3%;
+  background-color: black;
   position: fixed;
   top:0px;
   right:0px;
@@ -140,15 +150,14 @@
 
 .content {
   padding: 10px;
-  margin: 10px;
-  font-family: courier;
-  font-size: 12px;
+  margin-left: 30px;
+  font-family: times;
+  font-size: 18px;
 }
 
 .h1{
-  text-transform:uppercase;
   font-size:48px;
-  font-family:'helvetica';
+  font-family:'times';
 }
 
 .h2{
@@ -172,13 +181,13 @@
 
 
 .websitelink {
-  color:blue;
+  color:red;
 }
 
 .websitelink:hover{
   font-weight: bold;
-  color: blue;
-  font-size: 14px;
+  color: red;
+  font-size: 20px;
   transition: 1s;
 }
 
@@ -253,7 +262,7 @@
 
 .outerspacelink:hover{
   font-weight: bold;
-  color:hotpink;
+  color:white;
 }
 
 .outerspace {
@@ -273,7 +282,7 @@
 
 .webringlink:hover{
   font-weight: bold;
-  color:hotpink;
+  color:white
 }
 
 .webring {
@@ -292,7 +301,7 @@
 
 .busstoplink:hover{
   font-weight: bold;
-  color:hotpink;
+  color:white;
 }
 
 .busstop {
@@ -312,7 +321,7 @@
 
 .layoutlink:hover{
   font-weight: bold;
-  color:hotpink;
+  color:white;
 }
 
 .layout {
