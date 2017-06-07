@@ -4,6 +4,7 @@
 
 .background_beautiful {
     background-image: url("https://s-media-cache-ak0.pinimg.com/originals/26/92/d7/2692d7509999ec87416f25bebea3d26e.jpg");
+
 }
 
 .background_verweb {
@@ -19,20 +20,112 @@
   justify-content:center;
 }
 
-.pageheader_verweb {
-  tex
+.pageheader_beautiful {
+  font-family: times;
+  text-align: center;
+  width: 100%;
+  font-size: 140px;
+  margin-top: 60px;
+  color: #ffbafb;
+  -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+
 }
 
+.pageheader_beautiful:hover {
+  font-family: times;
+  width: 100%;
+  font-size: 140px;
+  margin-top: 60px;
+  color: black;
+  -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #ffbafb;
+  text-align: center;
+}
+
+.pageheader_emoji {
+  font-family: times;
+  width: 100%;
+  font-size: 140px;
+  margin-top: 200px;
+  color: lightblue;
+  -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+.pageheader_emoji:hover {
+  font-family: times;
+  width: 100%;
+  font-size: 140px;
+  margin-top: 200px;
+  color: lightblue;
+  -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: lightpink;
+  text-align: center;
+}
+
+.source_emoji {
+  font-family: times;
+  width: 50%;
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  background-color: lightblue;
+}
+
+.pageheader_verweb {
+  font-family: times;
+  text-align: center;
+  width: 100%;
+  font-size: 140px;
+  margin-top: 250px;
+  color: black;
+  -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: lime;
+
+}
+
+.pageheader_verweb:hover {
+  font-family: times;
+  width: 100%;
+  font-size: 140px;
+  margin-top: 250px;
+  color: limegreen;
+  -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+.subheader_verweb {
+  font-family: times;
+  font-size: 32px;
+  color: white;
+  -webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: lime;
+}
+
+.h2_emoji {
+  color: lightpink;
+  font-family: times;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0px;
+}
+
+
+
 .index {
-  position: fixed;
   color: blue;
   text-align: center;
-  font-family: verdana;
-  font-size: 72px;
+  font-family: times;
+  font-size: 25px;
   font-weight: bold;
-  text-decoration: none;
-  margin-left: 30px;
-  margin-top: 10px;
+  text-decoration: underline;
+  margin-top: 125px;
+  position: fixed;
+  left: 50%; width: 400px; margin-left:-200px
 }
 
 
@@ -41,11 +134,11 @@
 }
 
 
-.nav {
+.nav{
   font-size: 12px;
   cursor: pointer;
   display: block;
-  background-color: black;
+  background-color: limegreen;
   height: 5%;
   width:100%;
   position: fixed;
@@ -72,7 +165,7 @@
   font-size: 12px;
   cursor: pointer;
   display: block;
-  background-color: #F781D8;
+  background-color: #ffbafb;
   height: 5%;
   width:100%;
   position: fixed;
@@ -86,6 +179,14 @@
   margin-left: 45%;
   margin-top: 1%;
 }
+
+.paragraph_beautiful {
+  background-color: #ffbafb;
+  border: solid  black 2px;
+  padding: 5px;
+  color: black;
+}
+
 
 
 .paragraph_verweb {
@@ -107,7 +208,7 @@
 .items {
   height: 20vh;
   width: 100%;
-  background-color: black;
+  background-color: limegreen;
   position: fixed;
   top: -30vw;
   left: 3%;
@@ -132,7 +233,8 @@
 .items_beautiful {
   height: 20vh;
   width: 100%;
-  background-color: #F781D8;
+  background-color: #ffbafb;
+  margin: auto;
   position: fixed;
   top: -30vw;
   left: 3%;
@@ -175,7 +277,7 @@
 .menuleft {
   height:100vh;
   width: 3%;
-  background-color: black;
+  background-color: limegreen;
   position: fixed;
   top:0px;
   left:0px;
@@ -184,7 +286,7 @@
 .menuright {
   height:100vh;
   width: 3%;
-  background-color: black;
+  background-color: limegreen;
   position: fixed;
   top:0px;
   right:0px;
@@ -194,7 +296,7 @@
 .menuleft_beautiful {
   height:100vh;
   width: 3%;
-  background-color: #F781D8;
+  background-color: #ffbafb;
   position: fixed;
   top:0px;
   left:0px;
@@ -203,7 +305,7 @@
 .menuright_beautiful {
   height:100vh;
   width: 3%;
-  background-color: #F781D8;
+  background-color: #ffbafb;
   position: fixed;
   top:0px;
   right:0px;
@@ -274,10 +376,6 @@
   font-family:'times';
 }
 
-.h2{
-  font-size:14px;
-  font-family:'courier';
-}
 
 .title {
   font-size: 20px;
@@ -309,17 +407,24 @@
 
 
 .linkios7{
-  color:blue;
+  color:#af26ef;
+  font-weight: bold;
 }
 
 .linkios7:hover {
   font-weight: bold;
-  color:hotpink;
+  color:white;
 }
 
 .ios7 {
   align-content: center;
   display: none;
+  background-color: #ffbafb;
+padding: inherit;
+  text-align: center;
+  outline: black 2px solid;
+
+
 }
 
 .ios7.showme {
@@ -331,17 +436,24 @@
 
 
 .linkdrunk{
-  color:blue;
+  color:#af26ef;
+  font-weight: bold;
 }
 
 .linkdrunk:hover {
   font-weight: bold;
-  color:hotpink;
+  color: white;
 }
 
 .drunk{
   text-align: center;
   display: none;
+  background-color: #ffbafb;
+padding: inherit;
+  text-align: center;
+  font-size: 12px;
+  outline: black 2px solid;
+
 }
 
 .drunk.showme {
@@ -351,17 +463,24 @@
 
 
 .newyorklink{
-  color:blue;
+  color:#af26ef;
+  font-weight: bold;
 }
 
 .newyorklink:hover {
   font-weight: bold;
-  color:hotpink;
+  color:white;
 }
 
 .newyork{
   text-align: center;
   display: none;
+  background-color: #ffbafb;
+padding: inherit;
+  text-align: center;
+    font-size: 12px;
+    outline: black 2px solid;
+
 }
 
 .newyork.showme {
@@ -400,8 +519,14 @@
 }
 
 .webring {
-  align-content: center;
+  text-align: center;
   display: none;
+  background-color: black;
+padding: inherit;
+  text-align: center;
+    font-size: 12px;
+    outline: lime 2px solid;
+    color: lime;
 }
 
 .webring.showme {
@@ -419,8 +544,14 @@
 }
 
 .busstop {
-  align-content: center;
+  text-align: center;
   display: none;
+  background-color: black;
+padding: inherit;
+  text-align: center;
+    font-size: 12px;
+    outline: lime 2px solid;
+    color: lime;
 }
 
 .busstop.showme {
@@ -439,8 +570,14 @@
 }
 
 .layout {
-  align-content: center;
+  text-align: center;
   display: none;
+  background-color: black;
+padding: inherit;
+  text-align: center;
+    font-size: 12px;
+    color: lime;
+    outline: lime 2px solid;
 }
 
 .layout.showme {
@@ -463,6 +600,8 @@
   background-color: lightblue;
 padding: inherit;
   text-align: center;
+    font-size: 12px;
+    outline: solid 2px lightpink;
 }
 
 .personality.showme {
@@ -485,6 +624,8 @@ padding: inherit;
   background-color: lightblue;
 padding: inherit;
   text-align: center;
+    font-size: 12px;
+    outline: solid 2px lightpink;
 }
 
 .smiley.showme {
@@ -506,6 +647,8 @@ padding: inherit;
   background-color: lightblue;
 padding: inherit;
   text-align: center;
+    font-size: 12px;
+    outline: solid 2px lightpink;
 }
 
 .facebook.showme {
@@ -526,7 +669,9 @@ padding: inherit;
   display: none;
   background-color: lightblue;
 padding: inherit;
+  font-size: 12px;
   text-align: center;
+  outline: solid 2px lightpink;
 }
 
 .roar.showme {
@@ -548,6 +693,8 @@ padding: inherit;
   background-color: lightblue;
 padding: inherit;
   text-align: center;
+    font-size: 12px;
+    outline: solid 2px lightpink;
 }
 
 .list.showme {
