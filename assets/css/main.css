@@ -8,7 +8,10 @@
 }
 
 .background_verweb {
-  background-image: url("http://3.bp.blogspot.com/-OvmhX21y3lQ/T9nqWeOttQI/AAAAAAAAF6w/_nDUlZ-Pfcc/s1600/Green-wallpaper-14.jpg");
+  background-image:url('http://3.bp.blogspot.com/-OvmhX21y3lQ/T9nqWeOttQI/AAAAAAAAF6w/_nDUlZ-Pfcc/s1600/Green-wallpaper-14.jpg');
+  background-attachment:fixed;
+  background-repeat:repeat;
+  background-size: cover;
 }
 
 .background_emoji {
@@ -129,6 +132,17 @@
 }
 
 
+.body_index {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9e/Milky_Way_IR_Spitzer.jpg");
+  background-size: 100%;
+  animation: moveIt 10s linear infinite;
+}
+
+@keyframes moveIt {
+  from {background-position: bottom left;}
+  to {background-position: top right;}
+}
+
 .index:hover {
   color: magenta;
 }
@@ -145,6 +159,16 @@
  top: 0px;
  left:3%;
  right:5%;
+}
+
+
+.bottom_verweb {
+  cursor: pointer;
+  display: block;
+  background-color: limegreen;
+  height: 5%;
+  width:100%;
+ bottom: 0px;
 }
 
 
